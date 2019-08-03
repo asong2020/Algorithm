@@ -1,0 +1,6 @@
+﻿  list.c
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\单向链表\InMyFirst\LinkList\LinkList\list.c(20,38): warning C4030:  第一个形参表比第二个长
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\单向链表\InMyFirst\LinkList\LinkList\list.c(115,1): warning C4029:  声明的形参表不同于定义
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\单向链表\InMyFirst\LinkList\LinkList\list.c(137,1): error C2084:  函数“ListNode *ListDelete(ListNode *,int)”已有主体
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\单向链表\InMyFirst\LinkList\LinkList\list.c(114): message :  参见“ListDelete”的前一个定义
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\单向链表\InMyFirst\LinkList\LinkList\list.c(147,13): warning C4047:  “return”:“ListNode *”与“int”的间接级别不同

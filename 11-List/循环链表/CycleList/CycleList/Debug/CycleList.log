@@ -1,0 +1,7 @@
+﻿  Cycle.c
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\循环链表\CycleList\CycleList\Cycle.c(29,10): warning C4473:  “scanf_s”: 没有为格式字符串传递足够的参数
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\循环链表\CycleList\CycleList\Cycle.c(29,10): message :  占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\循环链表\CycleList\CycleList\Cycle.c(29,10): message :  缺失的可变参数 2 为格式字符串“%s”所需
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\循环链表\CycleList\CycleList\Cycle.c(29,10): message :  此参数用作缓冲区大小
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\循环链表\CycleList\CycleList\Cycle.c(31,26): warning C4047:  “!=”:“char [20]”与“int”的间接级别不同
+  CycleList.vcxproj -> C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\链表\循环链表\CycleList\Debug\CycleList.exe

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dup - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\SunSong\AppData\Local\Temp\RSP35C6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/dup.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\找出数组中重复的数字\dup.cpp"
+]
+Creating command line "cl.exe @C:\Users\SunSong\AppData\Local\Temp\RSP35C6.tmp" 
+Creating temporary file "C:\Users\SunSong\AppData\Local\Temp\RSP35D7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/dup.pdb" /debug /machine:I386 /out:"Debug/dup.exe" /pdbtype:sept 
+".\Debug\dup.obj"
+]
+Creating command line "link.exe @C:\Users\SunSong\AppData\Local\Temp\RSP35D7.tmp"
+<h3>Output Window</h3>
+Compiling...
+dup.cpp
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\找出数组中重复的数字\dup.cpp(5) : error C2065: 'nullptr' : undeclared identifier
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\找出数组中重复的数字\dup.cpp(5) : error C2446: '==' : no conversion from 'int' to 'int []'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\找出数组中重复的数字\dup.cpp(5) : error C2040: '==' : 'int []' differs in levels of indirection from 'int'
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\找出数组中重复的数字\dup.cpp(14) : error C2374: 'i' : redefinition; multiple initialization
+        C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\找出数组中重复的数字\dup.cpp(8) : see declaration of 'i'
+C:\Users\SunSong\Desktop\C面试整理\C算法题整理\源代码\找出数组中重复的数字\dup.cpp(112) : error C2440: 'initializing' : cannot convert from 'int' to 'int *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+dup.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
